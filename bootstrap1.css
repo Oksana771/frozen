@@ -1,0 +1,221 @@
+
+.bg-header{
+	background-color:#eae8e9;
+}
+.bg-header ul {
+	margin-bottom:0;
+	padding:0;
+	list-style-type:none;
+}
+.bg-header .row{
+	
+	padding:15px 150px;
+}
+.bg-header .row img{
+	margin-bottom:20px;
+}
+.bg-header .row  a{
+	word-spacing:10px;
+	font:15px lato;
+	color:#7a6666;
+	 
+}
+.bg-header .row a:active{
+	color:#c63763;
+	
+}
+ .about{
+	background-color:#c8c10d;
+	height:80px;
+	text-align:center;
+}
+.bg-main{
+	background-color:#f8f8f8;
+}
+
+.bg-main img{width:100%;
+}
+ #im{
+	width:156px;
+	height:150px;
+	position:absolute;
+	left:830px;
+	top:590px;
+}
+
+.bg-about{
+	height:170px;
+	background-color:#ebebed;
+	
+}
+.about p{
+	font-size: 30px;
+   font-family: "lato";
+   color:white;
+}
+.bg-main-about{
+	color:#7a6666;
+}
+ 
+ .community{
+	 width:150px;
+	 height:700px;
+	 background-color:#efedee;
+	margin:50px 70px 150px 10px;
+	text-align:center;
+	padding:40px;
+ }
+  .community a{
+	color:#bdb424;
+	text-decoration:underline;
+  }
+ .community p{
+	 font-family:"lato-bold";
+	 padding:20px;
+	 line-height:4;
+ }
+ .community h3{
+	 font-family:"lato-bold";
+	 line-height:2;
+	 color:#cb3362;
+ }
+ .EVERYONE{
+	line-height:2;
+	 font-family:"lato-bold";
+	 text-align:justify;
+ }
+ 
+ .EVERYONE h3{
+	 line-height:3.2;
+	 color:#cb3362;
+ }
+ 
+  .EVERYONE a{
+	  color:#bdb424;
+	text-decoration:underline;
+  }
+  
+   .EVERYONE p{
+	  
+	   margin-top:2em;
+   }
+.product{
+	padding:40px;
+	
+	background-color:#eae8e9;
+	
+}
+
+.new_product h3{
+	font:18px lato-bold;
+	
+	line-height:0.5em;
+	text-transform:uppercase;
+	color:#7a6666;
+	margin-left:60px;
+}
+.new_product h1{
+	font:20px lato-bold;
+	
+	
+	text-transform:uppercase;
+	color:#e32a62;
+	margin-left:60px;
+}
+.new_product p{
+	font:14px lato;
+	line-height:1.5em;
+	color:#7a6666;
+	padding-top:15px;
+	margin-left:60px;
+}
+
+
+.a{
+	padding:50px 100px;
+	text-align:center;
+	background-color:#c8c10d
+}
+.bg-footer{
+	
+	background-color:#cb3362;
+}
+
+.bg-footer{
+
+  padding: 50px 150px;
+}
+.bg-footer a {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+ 
+  transition: all .5s ease;
+}
+
+.bg-footer a:hover {
+  color: #70726F;
+}
+.bg-footer .freeze{
+	 font:12px roboto; 
+	 color:white;
+}
+@font-face {
+    font-family: lato; 
+    src: url(fonts/lato-regular-webfont.woff);
+	}
+@font-face {
+    font-family: roboto; 
+    src: url(fonts/roboto-regular-webfont.woff);
+	}
+@font-face {
+    font-family: lato-bold; 
+    src: url(fonts/lato-bold-webfont.woff);
+	}
+
+@media screen and (max-width: 1160px){
+	
+	
+	
+	.bg-main img{display:block;
+		width:100%;
+	}
+	
+	
+}	
+
+@media screen and (max-width: 1024px){
+	#im{
+		display:none;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.bg-main-about .container{
+		display:flex;
+		flex-direction:column;
+	}
+	
+}
+
+@media screen and (max-width: 568px){
+	.product{
+		display:flex;
+		flex-direction:column;
+		
+		align-items:center;
+		
+	}
+	.bg-header .row ul{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+	
+	.EVERYONE h3{
+		line-height:1.5;
+	}
+	
+	
+}
+
